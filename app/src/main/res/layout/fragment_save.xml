@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:paddingTop="@dimen/main_fragment_padding_top"
+    android:paddingStart="@dimen/standard_padding"
+    android:paddingEnd="@dimen/standard_padding"
+    tools:context=".presentation.view.save.SaveFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/savedRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
